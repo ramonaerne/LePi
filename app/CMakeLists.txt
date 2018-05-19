@@ -20,3 +20,6 @@ if(OpenCV_FOUND)
     message("-- Generating build for Lepton Client. Host: ${CMAKE_SYSTEM_NAME}")
     add_subdirectory(LePiClient)
 endif()
+
+message("-- Generating build for RawSttream")
+add_subdirectory(RawStream)
